@@ -23,7 +23,8 @@ from .mappings import Mapping
 
 __all__ = ["is_separable", "separability_matrix"]
 
-
+# TO-DO: Refactor the function
+# This is just a placeholder implementation; real logic is in process_handler_alt().
 def is_separable(transform):
     """
     A separability test for the outputs of a transform.
